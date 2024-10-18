@@ -44,6 +44,7 @@ export default function TextForm(props) {
     // setText("Enter text") //! correct way to change
     return (
         <>
+        
             <div className="container my-3 " style={{ color: props.mode === "dark" ? "white" : "black" }}>
                 <h2 style={{ color: props.mode === "dark" ? "white" : "#174992" }}>{props.heading} </h2>
                 <div className="mb-1"> 
